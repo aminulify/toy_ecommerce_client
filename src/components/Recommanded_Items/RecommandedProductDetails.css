@@ -1,0 +1,7 @@
+.recommendedItems img{
+    transform: scale(1);
+    transition: all 0.3s;
+}
+.recommendedItems:hover img{
+    transform: scale(1.1);
+}

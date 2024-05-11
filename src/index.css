@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+p{
+    color: rgb(92, 92, 92);
+}
+:root{
+    --mainColor: #4c3fa8;
+    --secondaryColor: #3c3489;
+    --yellowColor: #ffd656;
+}
+
+.btn{
+    color: var(--yellowColor);
+    background-color: var(--mainColor);
+    transition: all 0.3s;
+}
+.btn:hover{
+    color: var(--mainColor);
+    background-color: var(--yellowColor);
+}

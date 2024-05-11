@@ -1,0 +1,11 @@
+hr{
+    border: 1px solid #ffd656;
+}
+@media screen and (max-width: 799px) {
+    .login-signup-section{
+        position: absolute;
+        right: 20px;
+        top: 3.3rem;
+
+    }
+}
